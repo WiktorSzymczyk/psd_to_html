@@ -1,0 +1,112 @@
+.team {
+  background-image: url(img/bgk-middle-2.png);
+  background-size: cover;
+  height: 710px;
+  text-align: center;
+  color: white;
+  /* width: 1600px; */
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.team-container {
+  display: grid;
+  width: 950px;
+  display: grid;
+  /* grid-gap: 0px; */
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 180px auto 220px;
+}
+
+.team-title {
+  grid-column: 1/-1;
+  margin: 45px 0;
+}
+.team-title > h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: #fff;
+  margin-bottom: 5px;
+  letter-spacing: 0.8px;
+}
+
+.team-title-text {
+  font-family: "Playfair Display", serif;
+  font-weight: regular;
+  font-size: 14px;
+  color: #f9f9f9;
+  letter-spacing: 0.7px;
+  margin-top: 3px;
+}
+
+.team-title-text > span {
+  padding-bottom: 20px;
+  border-bottom: 1.5px solid rgba(238, 236, 236, 0.274);
+}
+
+.team-member {
+  grid-column: 1/-1;
+  grid-row: 2/3;
+  display: flex;
+  justify-content: center;
+}
+
+.team-member-card {
+  border: 1px solid white;
+  width: 220px;
+  height: 310px;
+  margin: 0 10px;
+}
+
+.team-member-photo {
+  background-color: white;
+  padding: 110px 0;
+}
+
+.team-member-card-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.team-member-card-text > h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: black;
+  margin-bottom: -8px;
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+.team-member-card-text > p {
+  font-family: "Roboto", sans-serif;
+  font-weight: light;
+  font-size: 13px;
+  color: hsla(0, 0%, 98%, 0.7);
+}
+.team-join-us {
+  grid-column: 1/-1;
+  grid-row: 3/-1;
+  margin-top: 45px;
+}
+
+.team-container > p {
+  font-family: "Roboto", sans-serif;
+  font-weight: light;
+  font-size: 14px;
+  color: #f3f3f3;
+}
+
+.team-join-us > button {
+  background: transparent;
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: regular;
+  font-size: 16px;
+  color: #00e0d0;
+  border: 1px solid #00e0d0;
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
