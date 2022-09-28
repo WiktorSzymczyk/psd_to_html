@@ -8,7 +8,6 @@ body {
 
 header {
     background-image: url("../img/bgk-header.png");
-<<<<<<< HEAD
     color: white;
     display: flex;
     flex-direction: column;
@@ -114,76 +113,11 @@ hr {
 }
 
 .our-story h1 {
-=======
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 70vh;
-    width: 100vw;
-    display: grid;
-    grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
-}
-
-.top-left {
-    padding: 15% 30% 0% 100%;
-    display: flex;
-    float: right;
-    grid-column: 2/3;
-}
-
-header .top-bar-nav nav .logo-image + .logo-text {
-    height: 100%;
-    width: auto;
-}
-
-header ul {
-    grid-column: 4/5;
-    text-decoration: none;
-    list-style: none;
-    display: flex;
-
-}
-
-header ul li a {
-    font-size: 1.3rem;
-    font-weight: 600;
-    color: white;
-}
-
-.out-story {
-    display: grid;
-    grid-template-columns: 1fr 1fr 2fr 0.5fr;
-    grid-template-rows: 1fr;
-    padding-bottom: 5vh;
-}
-
-.out-story img {
-    padding-top: 5vh;
-    grid-column: 2/3;
-    grid-row: 1/2;
-    width: 70%;
-    height: auto;
-    padding-bottom: 10%;
-}
-
-.button-placeholder {
-    display: grid;
-    grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
-    grid-template-rows: 0.5fr 2fr 0.5fr;
-}
-
-.right-side {
-    grid-column: 3/4;
-    grid-row: 1/2;
-}
-
-.out-story h1 {
->>>>>>> ece0d4bc4f1e23fb8583d78513cc1c0f63de0bd7
     color: #3a3844;
     font-family: "Playfair Display", sans-serif;
     padding-top: 2%;
 }
 
-<<<<<<< HEAD
 .our-story p {
     line-height: 1.5rem;
     display: flex;
@@ -220,138 +154,3 @@ header ul li a {
     color: white;
     padding-top: 10%;
 }
-=======
-.out-story p {
-    display: flex;
-    color: #76757d;
-}
-
-/*TODO*/
-/* Add Media Queries for screen sizes for elements in OUR STORY */
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .out-story h1 {
-        font-size: 1.2rem;
-    }
-
-    .out-story p {
-        font-size: 0.75rem;
-    }
-
-    #learn-more-button-our-story {
-        font-weight: 900;
-        border-radius: 5%;
-        border: 2px solid aqua;
-        background-color: transparent;
-        color: aqua;
-        padding: 7%;
-        text-align: center;
-        display: flex;
-        grid-row: 2/3;
-        justify-content: center;
-
-    }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    .out-story h1 {
-        font-size: 1.2rem;
-    }
-
-    .out-story p {
-        font-size: 0.65rem;
-    }
-
-    #learn-more-button-our-story {
-        font-weight: 900;
-        border-radius: 5%;
-        border: 2px solid aqua;
-        background-color: transparent;
-        color: aqua;
-        padding: 7%;
-        text-align: center;
-        display: flex;
-        grid-row: 2/3;
-        justify-content: center;
-
-    }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .out-story h1 {
-        font-size: 1.2rem;
-    }
-
-    .out-story p {
-        font-size: 0.70rem;
-    }
-
-    #learn-more-button-our-story {
-        font-weight: 900;
-        border-radius: 5%;
-        border: 2px solid aqua;
-        background-color: transparent;
-        color: aqua;
-        padding: 7%;
-        text-align: center;
-        display: flex;
-        grid-row: 2/3;
-        justify-content: center;
-
-    }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .out-story h1 {
-        font-size: 1.5rem;
-    }
-
-    .out-story p {
-        font-size: 0.85rem;
-    }
-
-    #learn-more-button-our-story {
-        font-weight: 900;
-        border-radius: 5%;
-        border: 2px solid aqua;
-        background-color: transparent;
-        color: aqua;
-        padding: 7%;
-        text-align: center;
-        display: flex;
-        grid-row: 2/3;
-        justify-content: center;
-
-    }
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    .out-story h1 {
-        font-size: 2rem;
-    }
-
-    .out-story p {
-        font-size: 1rem;
-    }
-
-    #learn-more-button-our-story {
-        font-weight: 900;
-        border-radius: 5%;
-        border: 2px solid aqua;
-        background-color: transparent;
-        color: aqua;
-        padding: 7%;
-        text-align: center;
-        display: flex;
-        grid-row: 2/3;
-        justify-content: center;
-    }
-}
-
->>>>>>> ece0d4bc4f1e23fb8583d78513cc1c0f63de0bd7
