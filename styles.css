@@ -8,203 +8,149 @@ body {
 
 header {
     background-image: url("../img/bgk-header.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 70vh;
-    width: 100vw;
-    display: grid;
-    grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
-}
-
-.top-left {
-    padding: 15% 30% 0% 100%;
+    color: white;
     display: flex;
-    float: right;
-    grid-column: 2/3;
+    flex-direction: column;
+    background-size: cover;
+    height: 83.5vh; 
 }
 
-header .top-bar-nav nav .logo-image + .logo-text {
-    height: 100%;
+header nav {
+    display: flex;
+    flex-direction: row;
+    padding: 0% 20% 0% 25%;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+.firstPage .active {
+    color: #00e0d0;
+}
+
+.header .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 20%;
+}
+
+#header-logo-text {
     width: auto;
+    height: 70%;
+    padding-top: 7%;
+    padding-left: 10%;
 }
 
-header ul {
-    grid-column: 4/5;
-    text-decoration: none;
+header .nav_list {
+    width: 100%;
     list-style: none;
     display: flex;
-
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-header ul li a {
-    font-size: 1.3rem;
-    font-weight: 600;
+header .nav_list li a {
+    text-decoration: none;
+    font-weight: 750;
     color: white;
 }
 
-.out-story {
-    display: grid;
-    grid-template-columns: 1fr 1fr 2fr 0.5fr;
-    grid-template-rows: 1fr;
-    padding-bottom: 5vh;
+.firstPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
-.out-story img {
-    padding-top: 5vh;
-    grid-column: 2/3;
+hr {
+    width: 4%;
+    border: 1px solid #00e0d0;
     grid-row: 1/2;
-    width: 70%;
-    height: auto;
-    padding-bottom: 10%;
+}
+
+.firstPage h1 {
+    padding-top: 10%;
+    font-size: 2.5rem;
+}
+
+.firstPage p {
+    line-height: 2rem;
+    opacity: 0.7;
+    font-size: 1.3rem;
+}
+
+.button-place-holder-learn-more button {
+    font-family: 'Hammersmith One', sans-serif;
+    background-color: transparent;
+    border: 1.5px solid #00e0d0;
+    border-radius: 5%;
+    font-size: 0.9rem;
+    color: #00e0d0;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Section 2 */
+.our-story {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
 }
 
 .button-placeholder {
-    display: grid;
-    grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
-    grid-template-rows: 0.5fr 2fr 0.5fr;
+    padding-top: 2%;
+    width: 20%;
+    height: auto;
 }
 
-.right-side {
-    grid-column: 3/4;
-    grid-row: 1/2;
+#logo-big-our-story {
+    padding-top: 2%;
+    width: 13%;
+    height: 13%;
+    justify-content: center;
+    padding-right: 5%;
 }
 
-.out-story h1 {
+.our-story h1 {
     color: #3a3844;
     font-family: "Playfair Display", sans-serif;
     padding-top: 2%;
 }
 
-.out-story p {
+.our-story p {
+    line-height: 1.5rem;
     display: flex;
+    justify-content: flex-start;
     color: #76757d;
 }
 
-/*TODO*/
-/* Add Media Queries for screen sizes for elements in OUR STORY */
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .out-story h1 {
-        font-size: 1.2rem;
-    }
-
-    .out-story p {
-        font-size: 0.75rem;
-    }
-
-    #learn-more-button-our-story {
-        font-weight: 900;
-        border-radius: 5%;
-        border: 2px solid aqua;
-        background-color: transparent;
-        color: aqua;
-        padding: 7%;
-        text-align: center;
-        display: flex;
-        grid-row: 2/3;
-        justify-content: center;
-
-    }
+.our-story {
+    padding-bottom: 7%;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    .out-story h1 {
-        font-size: 1.2rem;
-    }
-
-    .out-story p {
-        font-size: 0.65rem;
-    }
-
-    #learn-more-button-our-story {
-        font-weight: 900;
-        border-radius: 5%;
-        border: 2px solid aqua;
-        background-color: transparent;
-        color: aqua;
-        padding: 7%;
-        text-align: center;
-        display: flex;
-        grid-row: 2/3;
-        justify-content: center;
-
-    }
+/* Section 3 */
+.watchOurStory {
+    background-image: url("../img/bgk-middle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .out-story h1 {
-        font-size: 1.2rem;
-    }
-
-    .out-story p {
-        font-size: 0.70rem;
-    }
-
-    #learn-more-button-our-story {
-        font-weight: 900;
-        border-radius: 5%;
-        border: 2px solid aqua;
-        background-color: transparent;
-        color: aqua;
-        padding: 7%;
-        text-align: center;
-        display: flex;
-        grid-row: 2/3;
-        justify-content: center;
-
-    }
+.watchOurStory img {
+    width: 65%;
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .out-story h1 {
-        font-size: 1.5rem;
-    }
-
-    .out-story p {
-        font-size: 0.85rem;
-    }
-
-    #learn-more-button-our-story {
-        font-weight: 900;
-        border-radius: 5%;
-        border: 2px solid aqua;
-        background-color: transparent;
-        color: aqua;
-        padding: 7%;
-        text-align: center;
-        display: flex;
-        grid-row: 2/3;
-        justify-content: center;
-
-    }
-
+.watchOurStory span {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+    position: relative;
+    display: flex;
+    color: white;
+    padding-top: 10%;
 }
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    .out-story h1 {
-        font-size: 2rem;
-    }
-
-    .out-story p {
-        font-size: 1rem;
-    }
-
-    #learn-more-button-our-story {
-        font-weight: 900;
-        border-radius: 5%;
-        border: 2px solid aqua;
-        background-color: transparent;
-        color: aqua;
-        padding: 7%;
-        text-align: center;
-        display: flex;
-        grid-row: 2/3;
-        justify-content: center;
-    }
-}
-
