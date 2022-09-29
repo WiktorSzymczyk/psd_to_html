@@ -21,7 +21,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     display: flex;
     flex-direction: column;
@@ -79,7 +79,7 @@ header .nav_list li a {
     letter-spacing: 0.1rem;
 }
 
-.firstPage{
+.firstPage {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,13 +92,13 @@ hr {
 }
 
 .firstPage h1 {
-    font-family: "Playfair Display Black", sans-serif;
+    font-family: "Playfair Display", sans-serif;
     padding-top: 10%;
     font-size: 2rem;
 }
 
 .firstPage p {
-    font-family: "Roboto Light", sans-serif;
+    font-family: 'RobotoLight', sans-serif;
     line-height: 1.5rem;
     letter-spacing: 0.12rem;
     opacity: 0.7;
@@ -110,7 +110,7 @@ hr {
 }
 
 .button-place-holder-learn-more-hero-section button {
-    font-family: 'Hammersmith One', sans-serif;
+    font-family: 'HammersmithOne', sans-serif;
     background-color: transparent;
     border: 1.5px solid #00e0d0;
     border-radius: 5%;
@@ -202,7 +202,6 @@ hr {
     font-size: 1rem;
 }
 
-/* general */
 button:hover {
     cursor: pointer;
     background-color: #00e0d0;
@@ -229,8 +228,19 @@ button:hover {
     }
 }
 
+@media only screen and (max-width: 1200px) and (min-width: 800px){
+    ul li a {
+        font-size: 0.5rem;
+        letter-spacing: 0;
+    }
+}
 
-
+@media only screen and (max-width: 800px) and (min-width: 100px){
+    ul li a {
+        font-size: 0.2rem;
+        letter-spacing: 0;
+    }
+}
 
 
 
