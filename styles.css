@@ -1,3 +1,23 @@
+@font-face {
+    font-family: 'RobotoLight';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Space+Mono&display=swap');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Space+Mono&display=swap');
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@100;300;400&family=Space+Mono&display=swap');
+}
+
+@font-face {
+    font-family: 'HammersmithOne';
+    src: url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display&family=Roboto:wght@100;300;400&family=Space+Mono&display=swap');
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -37,7 +57,7 @@ header nav {
 #header-logo-text {
     width: auto;
     height: 70%;
-    padding-top: 7%;
+    padding-top: 5%;
     padding-left: 10%;
 }
 
@@ -47,15 +67,17 @@ header .nav_list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-left: 6.5%;
 }
 
 header .nav_list li a {
     text-decoration: none;
-    font-weight: 750;
+    font-family: "Roboto Black", sans-serif;
+    font-size: 0.8125;
     color: white;
 }
 
-.firstPage {
+.firstPage{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,37 +85,39 @@ header .nav_list li a {
 }
 
 hr {
-    width: 4%;
+    width: 2.5%;
     border: 1px solid #00e0d0;
-    grid-row: 1/2;
 }
 
 .firstPage h1 {
+    font-family: "Playfair Display Black", sans-serif;
     padding-top: 10%;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .firstPage p {
-    line-height: 2rem;
+    font-family: "Roboto Light", sans-serif;
+    line-height: 1.5rem;
+    letter-spacing: 0.15rem;
     opacity: 0.7;
-    font-size: 1.3rem;
+    font-size: 0.875rem;
 }
 
-.button-place-holder-learn-more button {
+.button-place-holder-learn-more-hero-section button {
     font-family: 'Hammersmith One', sans-serif;
     background-color: transparent;
     border: 1.5px solid #00e0d0;
     border-radius: 5%;
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: #00e0d0;
-    padding: 10px;
+    padding: 0.5% 1% 0.5% 1%;
     justify-content: center;
     text-align: center;
 }
 
 /* Section 2 */
 .our-story {
-    padding-top: 5%;
+    padding-top: 1.5%;
     display: flex;
     justify-content: center;
 }
@@ -102,6 +126,19 @@ hr {
     padding-top: 2%;
     width: 20%;
     height: auto;
+}
+
+
+.button-place-holder-learn-more-our-story button {
+    font-family: 'Hammersmith One', sans-serif;
+    background-color: transparent;
+    border: 1.5px solid #00e0d0;
+    border-radius: 5%;
+    font-size: 1rem;
+    color: #00e0d0;
+    padding: 1% 2% 1% 2%;
+    justify-content: center;
+    text-align: center;
 }
 
 #logo-big-our-story {
@@ -113,20 +150,23 @@ hr {
 }
 
 .our-story h1 {
-    color: #3a3844;
+    color: #413d4b;
     font-family: "Playfair Display", sans-serif;
-    padding-top: 2%;
+    font-size: 1.375rem;
 }
 
 .our-story p {
+    font-family: "Roboto Light", sans-serif;
     line-height: 1.5rem;
     display: flex;
+    font-size: 0.875rem;
     justify-content: flex-start;
-    color: #76757d;
+    color: #413d4b;
+    opacity: 0.9;
 }
 
 .our-story {
-    padding-bottom: 7%;
+    padding-bottom: 3.5%;
 }
 
 /* Section 3 */
@@ -153,4 +193,15 @@ hr {
     display: flex;
     color: white;
     padding-top: 10%;
+    font-size: 1rem;
 }
+
+
+
+
+
+
+
+
+
+
