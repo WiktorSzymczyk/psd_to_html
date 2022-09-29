@@ -28,7 +28,7 @@ body {
 }
 
 header {
-    background-image: url("../img/bgk-header.png");
+    background-image: url("./img/bgk-header.png");
     color: white;
     display: flex;
     flex-direction: column;
@@ -73,11 +73,10 @@ header .nav_list {
 
 header .nav_list li a {
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.8125;
+    font-family: "Roboto Black", sans-serif;
+    font-size: 0.8125rem;
     color: white;
-    font-weight: 700;
-    word-spacing: 10%;
+    letter-spacing: 0.1rem;
 }
 
 .firstPage {
@@ -89,7 +88,7 @@ header .nav_list li a {
 
 hr {
     width: 2.5%;
-    border: 1px solid #00e0d0;
+    border: 2px solid #00e0d0;
 }
 
 .firstPage h1 {
@@ -104,6 +103,10 @@ hr {
     letter-spacing: 0.12rem;
     opacity: 0.7;
     font-size: 0.875rem;
+}
+
+.button-place-holder-learn-more-hero-section {
+    padding-top: 2%;
 }
 
 .button-place-holder-learn-more-hero-section button {
@@ -174,7 +177,7 @@ hr {
 
 /* Section 3 */
 .watchOurStory {
-    background-image: url("../img/bgk-middle.png");
+    background-image: url("./img/bgk-middle.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 70vh;
@@ -199,11 +202,31 @@ hr {
     font-size: 1rem;
 }
 
+button:hover {
+    cursor: pointer;
+    background-color: #00e0d0;
+    color: #262626;
+    transition: ease-in-out 0.3s;
+}
+
 #hamburger-menu {
     width: 10%;
     height: 100%;
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1500px){
+    ul li a {
+        font-size: 0.5rem;
+        letter-spacing: 0;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px){
+    ul li a {
+        font-size: 0.2rem;
+        letter-spacing: 0;
+    }
+}
 
 @media only screen and (max-width: 1200px) and (min-width: 800px){
     ul li a {
