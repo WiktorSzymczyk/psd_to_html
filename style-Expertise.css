@@ -56,12 +56,13 @@
 
 .expertise-card {
   width: 314.5px;
-  height: 245px;
+  height: 235px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   border: 0.5px solid rgba(153, 153, 153, 0.267);
   border-collapse: collapse;
+  padding-top: 12px;
 }
 
 .expertise-card-text > h3 {
