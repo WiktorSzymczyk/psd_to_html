@@ -1,7 +1,7 @@
 .team {
   background-image: url(img/bgk-middle-2.png);
   background-size: cover;
-  height: 710px;
+  height: 73vh;
   text-align: center;
   color: white;
   /* width: 1600px; */
@@ -26,7 +26,7 @@
 .team-title > h2 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 1.375rem;
   color: #fff;
   margin-bottom: 5px;
   letter-spacing: 0.8px;
@@ -35,7 +35,7 @@
 .team-title-text {
   font-family: "Playfair Display", serif;
   font-weight: regular;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #f9f9f9;
   letter-spacing: 0.7px;
   margin-top: 3px;
@@ -74,7 +74,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: black;
   margin-bottom: -8px;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #fff;
   letter-spacing: 0.5px;
 }
@@ -82,7 +82,7 @@
 .team-member-card-text > p {
   font-family: "Roboto", sans-serif;
   font-weight: light;
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: hsla(0, 0%, 98%, 0.7);
 }
 .team-join-us {
@@ -94,7 +94,7 @@
 .team-container > p {
   font-family: "Roboto", sans-serif;
   font-weight: light;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #f3f3f3;
 }
 
@@ -102,7 +102,7 @@
   background: transparent;
   font-family: "Hammersmith One", sans-serif;
   font-weight: regular;
-  font-size: 16px;
+  font-size: 1rem;
   color: #00e0d0;
   border: 1px solid #00e0d0;
   width: 140px;

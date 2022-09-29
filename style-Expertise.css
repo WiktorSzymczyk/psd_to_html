@@ -1,6 +1,6 @@
 .expertise {
   background-size: 100% 100%;
-  height: 710px;
+  height: 78vh;
   text-align: center;
   color: black;
   width: 1600px;
@@ -28,7 +28,7 @@
 .expertise-title > h2 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 1.375rem;
   margin-bottom: 6px;
   color: #413d4b;
 }
@@ -37,7 +37,7 @@
   font-family: "Playfair Display", serif;
   font-weight: regular;
   margin-top: 3px;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: hsla(257, 7%, 19%, 0.932);
   letter-spacing: 0.7px;
   line-height: 23px;
@@ -68,7 +68,7 @@
 .expertise-card-text > h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #413d4b;
   letter-spacing: 0.5px;
 }
@@ -76,7 +76,7 @@
 .expertise-card-text > p {
   font-family: "Roboto", sans-serif;
   font-weight: light;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: hsla(0, 0%, 20%, 0.932);
   letter-spacing: 0.5px;
   padding: 0 35px;
