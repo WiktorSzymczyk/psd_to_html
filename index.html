@@ -75,6 +75,7 @@
                 </div>
             </div>
         </div>
+    </main>
 
       <div class="watchOurStory">
         <div>
@@ -231,11 +232,12 @@
             <h2>GIVE US GOOD NEWS</h2>
           </div>
         <div class="news-input-section" >      
-          <div> <input type="text" id="name" value="Name"></div>
-          <div> <input type="email" id="email" value="E-Mail"></div>
-          <div> <input type="text" id="subject" value="Subject"></div>
-          <div> <input type="text" id="name" value="Name"></div>
-          <div> <textarea name="comment" form="usrform">Your Message</textarea></div>
+          <div> <input type="text" id="name" placeholder="Name"></div>
+          <div> <input type="email" id="email" placeholder="Email"></div>
+          <div> <input type="text" id="subject" placeholder="Subject"></div>
+          <div><label>
+            <textarea name="comment" form="email" placeholder="Your Message"></textarea>
+          </label></div>
         </div>
     
           <div><button>Submit</button></div>
@@ -267,23 +269,24 @@
     <section class="part7">
 
       <div class="box1">
-        <div>
+        <div class="image-placeholder-footer">
           <img src="img/png/logo.png" alt="" />
           <img src="./img/png/tajam.png" alt="">
         </div>
         <div>
           <p>
-            lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
-            sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris
-            vitae erat in elit
+            Lorem quis bibendum auctor, nisi elit <br>
+            consequat ipsum, nec sagittis sem nibh elit. <br>
+            Duis sed odio sit amet auctror a ornare odio <br>
+            non mauris vitae erat in elit
           </p>
         </div>
       <br>
       <br>
         <ul class="botnav">
-          <li><a href="#help">Help</a></li>
-          <li><a href="#terms&conditions">Terms & Conditions</a></li>
-          <li><a href="#privacy">Privacy</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Privacy</a></li>
         </ul>
       </div>
 
@@ -291,26 +294,33 @@
         <div>
           <h3>OUR STUDIO</h3>
         </div>
-        <div>
-          <img src="img/png/big104.png" alt="location" />
-        </div>
 
-        <div>
-          <p>
+
+        <div class="box2-location">
+          <div>
+            <img src="img/png/big104.png" alt="location" />
+          </div>
+          <p style="margin: 0px 0px 10px 10px">
             Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta
             Barat 11480 - Indonesia
           </p>
+        </div>
+
+        <div class="box2-number" >
           <img src="img/png/phone351.png" alt="phone-number" />
           <p>(+62) 21-2224 3333</p>
         </div>
+
       </div>
 
       <div class="box3">
         <div>
           <h3>STAY IN TOUCH</h3>
         </div>
-        <input type="text" value="Subscribe our newsletter" />
-        <div><img src="img/png/paper122.png" alt="paper122" /></div>
+        <div class="subscribe-placeholder">
+          <input type="text" placeholder="Subscribe our newsletter" />
+          <img src="img/png/paper122.png" alt="paper122" />
+        </div>
         <div>
           <img src="img/png/facebook.png" alt="facebook" />
           <img src="img/png/twitter.png" alt="twitter" />

@@ -53,12 +53,17 @@ header nav {
     flex-direction: row;
     justify-content: center;
     padding-right: 20%;
+    align-items: center;
+}
+
+#header-logo-image {
+    height: 80%;
+    width: auto;
 }
 
 #header-logo-text {
     width: auto;
-    height: 60%;
-    padding-top: 10%;
+    height: 50%;
     padding-left: 10%;
 }
 
