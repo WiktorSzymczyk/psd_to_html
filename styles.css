@@ -73,7 +73,6 @@ header .nav_list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 6.5%;
 }
 
 header .nav_list li a {
