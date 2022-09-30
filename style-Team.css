@@ -1,7 +1,9 @@
 .team {
   background-image: url(img/bgk-middle-2.png);
   background-size: cover;
-  height: 73vh;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 720px;
   width: 100%;
   text-align: center;
   color: white;
@@ -109,4 +111,9 @@
   height: 40px;
   border-radius: 5px;
   margin-top: 10px;
+}
+
+.team-join-us > button:hover {
+  background: #00e0d0;
+  color: rgb(0, 0, 0);
 }
