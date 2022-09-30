@@ -73,6 +73,7 @@ header .nav_list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 header .nav_list li a {
@@ -81,6 +82,11 @@ header .nav_list li a {
     font-size: 0.8125rem;
     color: white;
     letter-spacing: 0.1rem;
+    white-space: nowrap;
+}
+
+header .nav_list {
+   white-space: nowrap;
 }
 
 .firstPage {
@@ -212,42 +218,3 @@ button:hover {
     color: #262626;
     transition: ease-in-out 0.3s;
 }
-
-#hamburger-menu {
-    width: 10%;
-    height: 100%;
-}
-
-@media only screen and (min-width: 1200px) and (max-width: 1500px){
-    ul li a {
-        font-size: 0.5rem;
-        letter-spacing: 0;
-    }
-}
-
-@media only screen and (min-width: 600px) and (max-width: 1200px){
-    ul li a {
-        font-size: 0.2rem;
-        letter-spacing: 0;
-    }
-}
-
-@media only screen and (max-width: 1200px) and (min-width: 800px){
-    ul li a {
-        font-size: 0.5rem;
-        letter-spacing: 0;
-    }
-}
-
-@media only screen and (max-width: 800px) and (min-width: 100px){
-    ul li a {
-        font-size: 0.2rem;
-        letter-spacing: 0;
-    }
-}
-
-
-
-
-
-
