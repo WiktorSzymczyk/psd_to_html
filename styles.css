@@ -73,6 +73,7 @@ header .nav_list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  white-space: nowrap;
 }
 
 header .nav_list li a {
@@ -212,10 +213,6 @@ button:hover {
   transition: ease-in-out 0.3s;
 }
 
-#hamburger-menu {
-  width: 10%;
-  height: 100%;
-}
 
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
   ul li a {

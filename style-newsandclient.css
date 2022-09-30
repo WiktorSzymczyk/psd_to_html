@@ -136,11 +136,26 @@
   font-family: "RobotoLight", sans-serif;
   padding-top: 50px;
   color: #ffffff;
+  letter-spacing: 0.05rem;
+  line-height: 1.5rem;
 }
 
 .image-placeholder-footer {
   display: flex;
   align-content: space-between;
+  width: auto;
+  height: 13%;
+  align-items: center;
+  padding-bottom: 3%;
+}
+
+#paper-logo-footer {
+  width: auto;
+  height: 170%;
+}
+
+#tajam-logo-footer {
+  padding-left: 5%;
 }
 
 .box2 {
