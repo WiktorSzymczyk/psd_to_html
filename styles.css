@@ -33,7 +33,7 @@ header {
     display: flex;
     flex-direction: column;
     background-size: cover;
-    height: 83.5vh; 
+    height: 83.5vh;
 }
 
 header nav {

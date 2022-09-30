@@ -145,8 +145,9 @@
 }
 
 .box2 {
-  width: 300px;
-  margin: 0 auto;
+  width: auto;
+  margin-left: 15%;
+  margin-right: 0;
   font-size: 14px;
   font-family: 'RobotoLight', sans-serif;
   padding-top: 50px;
