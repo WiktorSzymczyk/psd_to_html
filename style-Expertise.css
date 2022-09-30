@@ -14,7 +14,6 @@
 .expertise-container {
   display: grid;
   width: 950px;
-  display: grid;
   /* grid-gap: 0px; */
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 160px 250px 250px;
@@ -24,7 +23,7 @@
   grid-column: 1/-1;
   margin-top: 22px;
   margin-bottom: 25px;
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", sans-serif;
 }
 .expertise-title > h2 {
   font-family: "Playfair Display", serif;
@@ -36,7 +35,7 @@
 
 .expertise-title > p {
   font-family: "Playfair Display", serif;
-  font-weight: regular;
+  font-weight: normal;
   margin-top: 3px;
   font-size: 0.875rem;
   color: hsla(257, 7%, 19%, 0.932);
@@ -76,7 +75,7 @@
 
 .expertise-card-text > p {
   font-family: "Roboto", sans-serif;
-  font-weight: light;
+  font-weight: lighter;
   font-size: 0.875rem;
   color: hsla(0, 0%, 20%, 0.932);
   letter-spacing: 0.5px;
